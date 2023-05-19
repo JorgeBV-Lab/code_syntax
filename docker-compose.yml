@@ -1,0 +1,7 @@
+version: '3'
+services:
+  kata:
+    image: ruby:latest
+    working_dir: /opt/kata
+    volumes:
+      - .:/opt/kata 
